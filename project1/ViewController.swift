@@ -16,7 +16,6 @@ class ViewController: UIViewController {
     
     @IBAction func buttonTapped(_ sender: Any) {
         buttonCount += 1;
-        print(buttonCount)
         if buttonCount >= 10 {
             view.backgroundColor = UIColor.red
             titleLabel.text = "Hello Sophia"
